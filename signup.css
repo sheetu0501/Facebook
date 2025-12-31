@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f0f2f5;
+}
+
+/* Main container */
+.signup-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Facebook logo */
+.logo {
+    color: #1877f2;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Signup box */
+.signup-box {
+    background: white;
+    width: 430px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+.signup-box h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #606770;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background: #dadde1;
+    margin: 10px 0 15px;
+}
+
+/* Inputs */
+input, select {
+    padding: 11px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccd0d5;
+}
+
+/* Name row */
+.name-row {
+    display: flex;
+    gap: 10px;
+}
+
+.name-row input {
+    width: 100%;
+}
+
+/* DOB */
+label {
+    font-size: 12px;
+    color: #606770;
+    margin-top: 10px;
+    display: block;
+}
+
+.dob-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.dob-row select {
+    width: 100%;
+}
+
+/* Gender */
+.gender-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.gender-box {
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Full width input */
+.full {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Terms */
+.terms {
+    font-size: 11px;
+    color: #777;
+    line-height: 1.4;
+}
+
+.terms span {
+    color: #385898;
+    cursor: pointer;
+}
+
+/* Button */
+.signup-btn {
+    background: #00a400;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+    width: 200px;
+}
+
+/* Login link */
+.login-link {
+    text-align: center;
+    color: #1877f2;
+    font-size: 16px;
+    cursor: pointer;
+}
